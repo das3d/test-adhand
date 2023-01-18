@@ -1,0 +1,32 @@
+@import './constants.scss';
+@import './fonts.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: min(1vw, 25px);
+  scroll-behavior: smooth;
+}
+
+svg {
+  width: auto;
+  height: auto;
+}
+
+.skeleton {
+  @apply bg-gray-200 animate-pulse;
+}
+
+.container {
+  @apply w-full px-5 lg:max-w-[1440px] mx-auto;
+}
