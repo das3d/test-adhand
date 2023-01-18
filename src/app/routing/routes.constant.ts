@@ -9,8 +9,13 @@ type IRoute = RouteObject & {
 
 export const ROUTES: IRoute[] = [
   {
-    path: '/f',
+    path: '/',
     element: lazyLoadRoutes('home'),
     name: 'Home',
+  },
+  {
+    path: `/news/:id`,
+    element: lazyLoadRoutes('home'),
+    name: 'news',
   },
 ]

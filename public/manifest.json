@@ -1,6 +1,5 @@
 {
-  "short_name": "Unistory cra",
-  "name": "Create React App unistory template",
+  "name": "Create React App template",
   "icons": [
     {
       "src": "favicon.ico",
