@@ -1,5 +1,5 @@
-@import './constants.scss';
-@import './fonts.scss';
+@import "./constants.scss";
+@import "./fonts.scss";
 
 @tailwind base;
 @tailwind components;
@@ -28,5 +28,5 @@ svg {
 }
 
 .container {
-  @apply w-full px-5 lg:max-w-[1440px] mx-auto;
+  @apply w-full px-8 py-3 mx-auto;
 }

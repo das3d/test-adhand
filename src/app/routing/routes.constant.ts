@@ -15,7 +15,7 @@ export const ROUTES: IRoute[] = [
   },
   {
     path: `/news/:id`,
-    element: lazyLoadRoutes('home'),
-    name: 'news',
+    element: lazyLoadRoutes('news'),
+    name: 'NewsPage',
   },
 ]

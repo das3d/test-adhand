@@ -1,7 +1,11 @@
+import { NewsList } from '@entities/news'
+
 export interface IHomePageProperties {}
 
-export function Home(props: IHomePageProperties) {
-  return <>sadfsd</>
+export default function Home(props: IHomePageProperties) {
+  return (
+    <div>
+      <NewsList />
+    </div>
+  )
 }
-
-export default Home

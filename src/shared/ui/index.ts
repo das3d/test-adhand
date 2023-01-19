@@ -1,2 +1,2 @@
+export * from './back-button.component'
 export * from './container.component'
-export * from './icon.component'
