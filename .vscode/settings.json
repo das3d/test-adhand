@@ -49,5 +49,6 @@
     "styles.ts": "variants.ts, keyframes.ts",
     "index.tsx": "data.ts, utils.ts, data.tsx",
     "index.ts": "data.ts, utils.ts, data.tsx, interfaces.ts"
-  }
+  },
+  "cSpell.words": ["mantine"]
 }
